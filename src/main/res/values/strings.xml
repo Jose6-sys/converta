@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Converta</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="convert">Convert</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string> <!-- ✅ Added this -->
+
+    <!-- isiZulu -->
+    <string name="login_zu">Ngena ngemvume</string>
+    <string name="register_zu">Bhalisa</string>
+    <string name="email_zu">I-imeyili</string>
+    <string name="password_zu">Iphasiwedi</string>
+    <string name="convert_zu">Guqula imali</string>
+    <string name="settings_zu">Izilungiselelo</string>
+    <string name="language_zu">Ulimi</string>
+    <string name="logout_zu">Phuma</string>
+    <string name="save_zu">Gcina</string> <!-- Optional Zulu version -->
+
+    <!-- Xitsonga -->
+    <string name="login_ts">Nghena</string>
+    <string name="register_ts">Tsarisa</string>
+    <string name="email_ts">Imeyili</string>
+    <string name="password_ts">Phaswedi</string>
+    <string name="convert_ts">Hundzuluxa Mali</string>
+    <string name="settings_ts">Switirhisiwa</string>
+    <string name="language_ts">Ririmi</string>
+    <string name="logout_ts">Huma</string>
+    <string name="save_ts">Hlayisa</string> <!-- Optional Tsonga version -->
+
+    <!-- Spinner languages -->
+    <string-array name="languages">
+        <item>English</item>
+        <item>isiZulu</item>
+        <item>Xitsonga</item>
+    </string-array>
+</resources>
