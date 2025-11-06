@@ -1,8 +1,10 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.google.gms.google-services") // Firebase plugin
+    id("org.jetbrains.kotlin.kapt") //
+    id("com.google.gms.google-services")
 }
+
 
 android {
     namespace = "com.example.converta"
@@ -32,6 +34,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
     kotlinOptions {
         jvmTarget = "11"
     }
@@ -49,6 +52,19 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-analytics-ktx")
+
+    // --- Room Database ---
+    implementation("androidx.room:room-runtime:2.7.0-alpha05")
+    kapt("androidx.room:room-compiler:2.7.0-alpha05")
+    implementation("androidx.room:room-ktx:2.7.0-alpha05")
+
+    //google single sign on
+    implementation("com.google.android.gms:play-services-auth:21.1.0")
+    implementation("com.google.firebase:firebase-auth-ktx")
+
+    // --- Firebase Cloud Messaging ---
+    implementation("com.google.firebase:firebase-messaging-ktx")
+
 
     // --- AndroidX + Material ---
     implementation(libs.androidx.core.ktx)

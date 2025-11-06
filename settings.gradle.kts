@@ -14,7 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "converta"
+rootProject.name = "Converta"
 include(":app")
-
-

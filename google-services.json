@@ -12,7 +12,20 @@
           "package_name": "com.example.converta"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "899663064515-smodhiotqr83e2pncr5q23ced2s227cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.converta",
+            "certificate_hash": "193958d5391707d095fe40345407792d310854e6"
+          }
+        },
+        {
+          "client_id": "899663064515-6t8u69b7qlhvltm491f4nabb9jg1ejl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA72ixtX5ZabtylZoCx7ZwpnEsZQspll9g"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899663064515-6t8u69b7qlhvltm491f4nabb9jg1ejl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

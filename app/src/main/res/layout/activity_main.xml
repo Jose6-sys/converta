@@ -81,6 +81,20 @@
                 android:backgroundTint="#009B5A"
                 android:layout_marginTop="24dp"/>
 
+            <Button
+                android:id="@+id/googleSignInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Continue with Google"
+                android:drawableStart="@android:drawable/ic_dialog_email"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:backgroundTint="@android:color/white"
+                android:layout_marginTop="12dp"/>
+
+
+
+
             <TextView
                 android:id="@+id/registerLink"
                 android:layout_width="wrap_content"
